@@ -29,7 +29,7 @@ build() {
         -Daudit=disabled \
         -Deconf=disabled \
         -Dnis=disabled \
-        -Ddb-backend=none
+        -Ddb=auto
     meson compile -C build
 }
 
